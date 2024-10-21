@@ -5,10 +5,9 @@ public class Main {
         RadnikFiksno radnikFiksno = new RadnikFiksno("Pero", "Peric", 2311965478934L, 5620990000055687L, 1000);
         RadnikPoDanu radnikPoDanu = new RadnikPoDanu("Marko", "Maric", 2311965478935L, 5620990000055688L, 100);
         RadnikPoSatu radnikPoSatu = new RadnikPoSatu("Niko", "Nikic", 2311965478936L, 5620990000055689L, 50);
-        Radnik [] Radnici={radnikFiksno,radnikPoDanu,radnikPoSatu};
-        for(int i=0;i<3;i++){
-            System.out.println(Radnici[i]);
+        radnikFiksno.isplatiPlatu();
+        radnikPoDanu.isplatiPlatu();
+        radnikPoSatu.isplatiPlatu();
         }
 
     }
-}

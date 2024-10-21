@@ -17,15 +17,7 @@ protected float plata;
 
     }
 
-    @Override
-    public String toString() {
-        return "Radnik{" +
-                "ime='" + ime + '\'' +
-                ", prezime='" + prezime + '\'' +
-                ", jmbg=" + jmbg +
-                ", ziroRacun=" + ziroRacun +
-                ", plata=" + plata +
-                '}';
+
     }
-}
+
 
