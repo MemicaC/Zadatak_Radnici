@@ -4,7 +4,7 @@ public class RadnikPoDanu extends Radnik{
         super(ime, prezime, jmbg, ziroRacun);
     }
     public void isplatiPlatu(int brDana){
-        float plata=brDana*satnica;
+        float plata=brDana*8*satnica;
         System.out.println(ime+" "+prezime+" "+plata+" €");
 
 
