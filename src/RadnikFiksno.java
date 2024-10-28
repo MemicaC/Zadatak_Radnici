@@ -4,7 +4,7 @@ public class RadnikFiksno extends Radnik{
         super(ime, prezime, jmbg, ziroRacun);
     }
     public void isplatiPlatu(int brDanauMjesecu) {
-        float plata = brDanauMjesecu * satnica;
+        float plata = brDanauMjesecu * 8 *satnica;
         System.out.println(ime + " " + prezime + " " + plata+" €");
     }
 }
